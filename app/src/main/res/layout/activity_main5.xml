@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cartoongirl"
+    tools:context=".Main5Activity">
+    
+
+    <View
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ellipse10"
+        />
+
+
+    <View
+
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/vector"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/rectangl30"
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</FrameLayout>
+
+
+
+

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/skin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape">
+
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#F3CEBA"/>
+
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="1.5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#F3CEBA"
+                android:orientation="horizontal" />
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="1.5dp"
+                android:backgroundTint="#F3CEBA"
+                android:background="@drawable/shape1"/>
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="224dp"
+                android:backgroundTint="#F3CEBA"
+                android:layout_marginTop="1.5dp"
+                android:background="@drawable/shape1"/>
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="297dp"
+                android:backgroundTint="#C4C4C4"
+                android:layout_marginTop="1.5dp"
+                android:background="@drawable/shape1"/>
+
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30dp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/design2"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="When's your "/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Hoping to find ? "/>
+
+
+        </LinearLayout>
+
+      </FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/skin_2"
+    android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Honesty helps you andeveryone
+                               on find What you're looking for"/>
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A relationship"
+                android:layout_marginLeft="10dp"
+                android:textColor="#817272"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleY="2"
+                android:scaleX="2"
+                android:layout_marginLeft="180dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A relationship"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleY="2"
+                android:scaleX="2"
+                android:layout_marginLeft="180dp"
+                android:buttonTint="#EAAC8B"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A relationship"
+                android:layout_marginLeft="10dp"
+                android:textColor="#817272"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleY="2"
+                android:scaleX="2"
+                android:layout_marginLeft="180dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A relationship"
+                android:layout_marginLeft="10dp"
+                android:textColor="#817272"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleY="2"
+                android:scaleX="2"
+                android:layout_marginLeft="180dp"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="60dp"
+                    android:textSize="15dp"
+                   android:text="This will show your profile
+                                 unlese you're unsure"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/star1"/>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="center"
+                        android:layout_gravity="center"
+                        android:src="@drawable/star2"/>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="center"
+                        android:layout_gravity="center"
+                        android:src="@drawable/play"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="center"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="9dp"
+                        android:src="@drawable/desh"/>
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape2"
+                android:backgroundTint="#000000"/>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+
+</LinearLayout>
